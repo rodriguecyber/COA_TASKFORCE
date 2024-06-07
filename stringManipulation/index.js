@@ -14,7 +14,7 @@ const transformString = (str) => {
        return replaceWithAscii(str);
     }
     
-    
+    return str+" not devided by either 3 or 5"
     
 }
 
@@ -31,4 +31,5 @@ const  replaceWithAscii = (str) => {
 }
 
 
-console.log(transformString("rwi "));
+
+console.log(transformString("rwig"));
