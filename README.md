@@ -18,7 +18,10 @@ It contains three folders
           - If the length of the string is divisible by 3, reverse the entire string.
           - If the length of the string is divisible by 5, replace each character with its ASCII code.
           -  If the length of the string is divisible by both 3 and 5, perform both operations in the
-          order specified above.**
+          order specified above.
+          - if is not devided by 3 or 5 return `string not diveded by either 3 or 5`
+   
+   
 4. for Javascript i used `arrow_function` approach and  `camelCase` to name function
       
       
