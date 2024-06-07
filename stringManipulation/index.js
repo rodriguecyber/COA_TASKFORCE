@@ -31,4 +31,4 @@ const  replaceWithAscii = (str) => {
 }
 
 
-console.log(transformString("rwi"));
+console.log(transformString("rwi "));

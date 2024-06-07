@@ -30,5 +30,5 @@ const subarraySum = (arr, target) =>{
 
 const arr = [4, 2, 7, 1, 9, 5];
 const target = 14;
-// call function with parameters
+
 console.log(subarraySum(arr, target)); 
