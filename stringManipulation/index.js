@@ -1,26 +1,21 @@
 const transformString = (str) => {
-    let result
+    
     if (str.length % 5 === 0 && str.length % 3 === 0) {
         const result1 = replaceWithAscii(str);
         const result2 = reverseString(str);
-        result =result1+" "+ result2
- 
+        return result1+" "+ result2
+      
      }
     if (str.length % 3 === 0) {
-        result = reverseString(str);
+       return  reverseString(str);
     }
     
     if (str.length % 5 === 0) {
-        result = replaceWithAscii(str);
-    }
-    if (str.length % 5 === 0 && str.length % 3 === 0) {
-       const result1 = replaceWithAscii(str);
-       const result2 = reverseString(str);
-       result =result1+" "+ result2
-
+       return replaceWithAscii(str);
     }
     
-    return result;
+    
+    
 }
 
 const reverseString = (str) =>{
