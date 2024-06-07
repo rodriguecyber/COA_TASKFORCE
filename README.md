@@ -19,7 +19,7 @@ It contains three folders
           - If the length of the string is divisible by 5, replace each character with its ASCII code.
           -  If the length of the string is divisible by both 3 and 5, perform both operations in the
           order specified above.**
-   4. for Javascript i used `arrow_function` approach and  `camelCase` to name function
+4. for Javascript i used `arrow_function` approach and  `camelCase` to name function
       
       
   
