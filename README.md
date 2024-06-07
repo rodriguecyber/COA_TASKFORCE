@@ -10,7 +10,8 @@ It contains three folders
      - this is for task of designing provide Figma design: https://www.figma.com/design/XF6xlvvHBv12WFveDjVoso/COA-Take-home-Challenge?node-id=0-1&t=25gJPSlan6K0PFwd-0
      - it have file named `index.html `  which contain `HTML` codes
      -  it have folder named `styles ` which have file named `styles.css` which have `CSS` for styling above HTML codes
-     -  it have also folder named `images` which contains images used in   HTML codes
+     - i have used images copie from figam design  and the link on `know more` direct you on internet to read about animal 
+     - i have used online fontawesome toolkit  to get arrow used on getmore link
 3. **stringManipulation**: this folder for challenge **4.3 Coding Challenge 2: String Transformation**
     - this contain file named `index.js` which contain code for solving problem:
         **Given a string, transform it based on the following rules:

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 body {
@@ -16,15 +17,17 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     gap: 2px;
+    padding-bottom: 200px;
     padding: 10px;
-    max-width:30vw; 
+    max-width:85vw; 
     width: 100%;
     cursor: pointer;
+   
 }
 
-.grid-item {
+.grid-item{
     width: 100%;
-    padding-top: 700%; 
+    padding-top: 160%; 
     position: relative;
     overflow: hidden;
     
@@ -40,24 +43,63 @@ body {
     object-fit: cover;
     object-position: top; 
     transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(50%);
+
+}
+.grid-item p{
+    position: relative;
+    margin-left:20px ;
+   font-size: 1vw;
+   margin-top: 1;
+   color: rgb(235, 231, 223);
+   
+}
+.grid-container h3{
+    position: relative;
+    margin-left:20px ;
+    font-size: 1.6vw;
+    margin-bottom: 0;
+    color: white;
+}
+.grid-container a{
+    position: relative;
+    margin-left:20px ;
+    color: rgb(10, 122, 214);
+    bottom: 20px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    display: none;
+    padding-top: 1vw;
 }
 .grid-item:nth-child(1) img:hover {
-    filter: blur(20px) grayscale(100%);
-    transform: scale(1.1); 
-    
+    filter: blur(10px) grayscale(100%) brightness(50%);
+   
 }
 .grid-item:nth-child(2) img:hover {
     transform: scale(1.1); 
-    filter: blur(20px) grayscale(100%);
-    transform: scale(1.1); 
+    filter: blur(10px) grayscale(100%) brightness(50%);
+   
 }
 .grid-item:nth-child(3) img:hover {
     transform: scale(1.1); 
-    filter: blur(20px) grayscale(100%);
-    transform: scale(1.1); 
+    filter: blur(10px) grayscale(100%) brightness(50%);
+   
 }
 .grid-item:nth-child(4) img:hover {
     transform: scale(1.1); 
-    filter: blur(20px) grayscale(100%);
-    transform: scale(1.1); 
+    filter: blur(10px) grayscale(100%) brightness(50%);
+    
+}
+.grid-item:nth-child(4):hover a{
+   display:block
+
+}
+.grid-item:nth-child(3):hover a{
+   display:block
+}
+.grid-item:nth-child(2):hover a{
+   display:block
+}
+.grid-item:nth-child(1):hover a{
+   display:block
 }
